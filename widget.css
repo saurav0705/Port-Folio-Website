@@ -1,0 +1,41 @@
+.master{
+    position: fixed;
+    width:auto;
+    right:10%;
+    bottom: 10%;
+    padding:5px 5px;
+    background-color: orange;
+    border-radius: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    border:2px solid white;
+    font-size: 18px;
+    
+}
+body{
+    background-color: black;
+}
+.widget{
+    z-index: 1;
+}
+.child{
+    position: fixed;
+    right:18%;
+    display: none;
+
+}
+.fb{
+    position: fixed;
+    bottom:20%;
+}
+.insta{
+    position: fixed;
+    bottom:30%;
+}
+.what{
+    position: fixed;
+    bottom:40%;
+}
+.after{
+    display: none;
+}

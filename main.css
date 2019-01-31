@@ -1,0 +1,110 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.first{
+    height:18%;
+}
+.description{
+    color:white;
+}
+.third{
+    background-color: black;
+    position: relative;
+    left:20px;
+    right:20px;
+    padding:4px 5px;
+    color:white;
+    border-radius: 12px;
+}
+
+.hiretxt{
+    font-size: 24px;
+    font-family:cursive;
+    display: none;
+    text-align: right;
+    padding: 15px 15px;
+
+}
+.try{
+    background: url("images/daylight-environment-forest-459225.jpg");
+    background-size: cover;
+    width:100%; 
+}
+.col-sm-4{
+    height:30%;
+    width:30%;
+}
+.fourth{
+    background-color: black;
+    position: relative;
+    top:10px;
+    left:20px;
+    right:20px;
+    padding:4px 5px;
+    color:white;
+    border-radius: 12px;
+}
+.fifth{
+    background-color: black;
+    position: relative;
+    top:20px;
+    left:20px;
+    right:20px;
+    padding:4px 5px;
+    color:white;
+    border-radius: 12px;
+}
+.carasol{
+    display: none;
+}
+.aboutmecontent{
+    color:white;
+    display: none;
+}
+a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    border-bottom: none;
+}
+a:hover{
+    color: #f1f1f1;
+}
+.container{
+    height:100%;
+    position: absolute;
+    left:20px;
+    right:20px;
+    
+    top:20%;
+    background-image: url("images/bridge-feet-railings-244371.jpg");
+    background-size:cover;
+    
+}
+.decoy-image{
+    height: 100%;
+    width:100%;
+    
+}
+
+.front {
+    position: absolute;
+    top:0;
+    z-index: 1;
+    height: 100%;
+    display: block;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
